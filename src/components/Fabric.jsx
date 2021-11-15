@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Slider, Switch, Input } from "antd";
+import { Row } from "antd";
 import "./slider.css";
 export default class Fabric extends Component {
   state = {

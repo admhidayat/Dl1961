@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import { Input } from "antd";
 
-import { UserOutlined } from "@ant-design/icons";
 import "./form.css";
-import { Form, Checkbox } from "antd";
+import { Form } from "antd";
 
 const { TextArea } = Input;
 
@@ -15,7 +14,7 @@ export default class UserForm extends Component {
   render() {
     return (
       <>
-        <p style={{position:"absolute", margin:"15px"}}>Profile</p>
+        <p style={{ position: "absolute", margin: "15px" }}>Profile</p>
         <Row
           type="flex"
           justify="center"

@@ -33,13 +33,14 @@ export default class InseameSelection extends Component {
           }}
         >
           <Select
+            onFocus={(e) => e.stopPropagation()}
             size="large"
             showSearch
             style={{ width: 400, textAlign: "center" }}
             placeholder="Select Inseam"
             optionFilterProp="children"
             onChange={onChange}
-            onFocus={onFocus}
+            // onFocus={onFocus}
             onBlur={onBlur}
             onSearch={onSearch}
             filterOption={(input, option) =>

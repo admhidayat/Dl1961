@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import bimage1 from "../images/bimage1.png";
-import bimage2 from "../images/bimage2.png";
-import bimage3 from "../images/bimage3.png";
-import bimage4 from "../images/bimage4.png";
+import wash1 from "../images/wash1.png";
+import wash2 from "../images/wash2.png";
+import wash3 from "../images/wash3.png";
+import wash4 from "../images/wash4.png";
+import wash5 from "../images/wash5.png";
+
 import { Row, Col } from "antd";
 
 import "./banner.css";
@@ -12,172 +14,65 @@ export default class Wash extends Component {
       <>
         <p style={{ position: "absolute", margin: "15px" }}>Wash</p>
 
-        <div style={{ display: "flex", height: "100%" }}>
-          <div
-            style={{
-              backgroundColor: "white",
-              width: "25%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  color: "Black",
-                  fontSize: "24px",
-                  textAlign: "center",
-                  margin: "10px",
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                White
-              </p>
+        <div style={{ display: "flex" }}>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "20vw" }} src={wash1} />
             </Row>
           </div>
-          <div
-            style={{
-              backgroundColor: "#928fce",
-              width: "27%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  textAlign: "center",
-                  color: "White",
-                  fontSize: "24px",
-                  margin: "10px",
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                Light Indigo
-              </p>
+
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "20vw" }} src={wash2} />
             </Row>
           </div>
-          <div
-            style={{
-              backgroundColor: "#4B0082",
-              width: "25%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  color: "white",
-                  textAlign: "center",
 
-                  fontSize: "24px",
-                  margin: "10px",
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                Mid Indigo
-              </p>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "20vw" }} src={wash3} />
             </Row>
           </div>
-          <div
-            style={{
-              backgroundColor: "#2A0D5D",
-              minHeight: "700px",
-              width: "25%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "24px",
-                  margin: "10px",
-                  textAlign: "center",
 
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                Dark Indigo
-              </p>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "20vw" }} src={wash4} />
             </Row>
           </div>
-          <div
-            style={{
-              backgroundColor: "#1f262a",
 
-              minHeight: "700px",
-              width: "25%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "24px",
-                  margin: "10px",
-                  textAlign: "center",
-
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                Washed Indigo
-              </p>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "20vw" }} src={wash5} />
             </Row>
           </div>
-          <div
-            style={{
-              backgroundColor: "#000000",
 
-              minHeight: "700px",
-              width: "25%",
-            }}
-          >
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ minHeight: "100vh" }}
-            >
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "24px",
-                  margin: "10px",
-                  textAlign: "center",
-
-                  letterSpacing: "1px",
-                  wordSpacing: "5px",
-                }}
-              >
-                Solid black
-              </p>
+          {/* <div>
+            <Row type="flex" justify="center" align="middle">
+              <div>
+                <img src={wash2} />
+              </div>
             </Row>
           </div>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <div>
+                <img src={wash3} />
+              </div>
+            </Row>
+          </div>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <div>
+                <img src={wash4} />
+              </div>
+            </Row>
+          </div>
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <div>
+                <img src={wash5} />
+              </div>
+            </Row>
+          </div> */}
         </div>
       </>
     );
