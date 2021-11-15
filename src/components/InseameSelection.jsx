@@ -21,7 +21,7 @@ export default class InseameSelection extends Component {
   render() {
     return (
       <>
-        <p style={{ position: "absolute", margin: "15px" }}>Inseam</p>
+        <p style={{ position: "absolute", margin: "15px" }}>Select Inseam</p>
 
         <div
           style={{
@@ -29,7 +29,7 @@ export default class InseameSelection extends Component {
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-            height: "100%",
+            height: "90%",
           }}
         >
           <Select

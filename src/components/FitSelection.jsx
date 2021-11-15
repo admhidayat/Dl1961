@@ -10,7 +10,7 @@ export default class FitSelection extends Component {
   render() {
     return (
       <>
-        <p style={{ position: "absolute", margin: "15px" }}>Fit</p>
+        <p style={{ position: "absolute", margin: "15px" }}> Select Fit</p>
 
         <Row
           type="flex"

@@ -15,7 +15,7 @@ export default class Hardware extends Component {
             " linear-gradient(180deg, rgba(255,255,255,1) 7%, rgba(160,174,210,1) 80%)",
         }}
       >
-        <p style={{ position: "absolute", margin: "15px" }}>Fit</p>
+        <p style={{ position: "absolute", margin: "15px" }}>Select Hardware</p>
 
         <Row
           type="flex"
@@ -34,46 +34,46 @@ export default class Hardware extends Component {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                margin: "2px",
+                margin: "12px",
               }}
             >
               <div>
                 <img
-                  style={{ width: "120px", height: "120px", margin: "10px" }}
-                  src={btn_gold}
-                />
-              </div>
-              <Button style={{ borderRadius: "12px" }}>Mara Straight</Button>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                margin: "2px",
-              }}
-            >
-              <div>
-                <img
-                  style={{ width: "120px", height: "120px", margin: "10px" }}
-                  src={btn_pinkgold}
-                />
-              </div>
-              <Button style={{ borderRadius: "12px" }}>Mara Straight</Button>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                margin: "2px",
-              }}
-            >
-              <div>
-                <img
-                  style={{ width: "120px", height: "120px", margin: "10px" }}
+                  style={{ width: "190px", height: "170px", margin: "20px" }}
                   src={btn_silver}
                 />
               </div>
-              <Button style={{ borderRadius: "12px" }}>Mara Straight</Button>
+              <Button style={{ borderRadius: "12px", height:"50px" , backgroundColor:"inherit" , color:"white" }}>Brushed Silver</Button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                margin: "12px",
+              }}
+            >
+              <div>
+                <img
+                  style={{ width: "190px", height: "170px", margin: "20px" }}
+                  src={btn_gold}
+                />
+              </div>
+              <Button style={{ borderRadius: "12px", height:"50px",backgroundColor:"inherit" , color:"white" }}>Brushed Gold</Button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                margin: "12px",
+              }}
+            >
+              <div>
+                <img
+                  style={{ width: "190px", height: "170px", margin: "20px" }}
+                  src={btn_pinkgold}
+                />
+              </div>
+              <Button style={{ borderRadius: "12px", height:"50px",backgroundColor:"inherit" , color:"white" }}>Mate Rose Gold</Button>
             </div>
           </div>
         </Row>

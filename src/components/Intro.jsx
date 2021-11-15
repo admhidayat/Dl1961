@@ -6,8 +6,8 @@ export default class Intro extends Component {
     return (
       <>
         <div className="box">
-          <img  style={{width:"180px", height:"100px"}} src={dl1961}/>
-          {/* <h2>DIGITAG_PROGRAM</h2> */}
+          <img  style={{width:"150px", height:"30px"}} src={dl1961}/>
+        
         </div>
       </>
     );

@@ -4,6 +4,7 @@ import wash2 from "../images/wash2.png";
 import wash3 from "../images/wash3.png";
 import wash4 from "../images/wash4.png";
 import wash5 from "../images/wash5.png";
+import wash6 from "../images/wash6.png";
 
 import { Row, Col } from "antd";
 
@@ -12,39 +13,44 @@ export default class Wash extends Component {
   render() {
     return (
       <>
-        <p style={{ position: "absolute", margin: "15px" }}>Wash</p>
+        <p style={{ position: "absolute", margin: "15px" }}> Select Wash</p>
 
         <div style={{ display: "flex" }}>
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "20vw" }} src={wash1} />
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash1} />
             </Row>
           </div>
 
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "20vw" }} src={wash2} />
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash2} />
             </Row>
           </div>
 
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "20vw" }} src={wash3} />
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash3} />
             </Row>
           </div>
 
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "20vw" }} src={wash4} />
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash4} />
             </Row>
           </div>
+
 
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "20vw" }} src={wash5} />
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash5} />
             </Row>
           </div>
-
+          <div>
+            <Row type="flex" justify="center" align="middle">
+              <img style={{ height: "100vh", width: "16.5vw" }} src={wash6} />
+            </Row>
+          </div>
           {/* <div>
             <Row type="flex" justify="center" align="middle">
               <div>

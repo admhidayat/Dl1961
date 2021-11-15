@@ -14,35 +14,37 @@ export default class Stitching extends Component {
         }}
       >
         <p style={{ position: "absolute", margin: "15px", color: "white" }}>
-          Stitching
+          Select Stitching
         </p>
 
         <Row
           type="flex"
           justify="center"
           align="middle"
-          style={{ height: "100vh" , width:"100%"}}
+          style={{ height: "100vh", width: "100%" }}
         >
           <Row
             style={{
               display: "flex",
               justifyContent: "space-between",
-              width:"100%"
+              width: "100%",
             }}
           >
-              <div>
+            <div>
+              <span style={{ color: "white", fontSize: "20px", margin:"100px", position:"absolute" }}>Tonal</span>
+
               <img
-                style={{ width: "210px", height: "280px" }}
+                style={{ width: "250px", height: "230px" }}
                 src={stitch_tonal}
               />
-              </div>
-              <div>
+            </div>
+            <div>
+            <span style={{ color: "white", fontSize: "20px", margin:"100px", position:"absolute" }}>Contrast</span>
               <img
-                style={{  width: "210px", height: "280px" }}
+                style={{ width: "250px", height: "230px" }}
                 src={stitch_contrast}
               />
-              </div>
-            
+            </div>
           </Row>
         </Row>
       </div>

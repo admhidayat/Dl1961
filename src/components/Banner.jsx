@@ -11,20 +11,22 @@ export default class Banner extends Component {
   render() {
     return (
       <>
-        <div style={{ display: "flex" }}>
-          <Row style={{ width: "25vw",height:"100%"  }}>
-            <video autoPlay loop width="100%" src={water} />
+        {/* <div style={{ display: "flex" }}>
+          <Row >
+            <video autoPlay loop width="36%" height="100%" src={water} />
           </Row>
-          <Row style={{ width: "25vw",height:"100%"  }}>
+          <Row style={{ width: "25vw" }}>
             <video width="100%" src={recycled} />
           </Row>
-          <Row style={{ width: "25vw",height:"100%"  }}>
-            <video width="100%"  src={solar} />
+          <Row style={{ width: "25vw" }}>
+            <video width="100%" src={solar} />
           </Row>
-          <Row style={{ width: "25vw",height:"100%"  }}>
+          <Row style={{ width: "25vw" }}>
             <video width="100%" src={laser} />
           </Row>
-        </div>
+
+        </div> */}
+      
       </>
     );
   }

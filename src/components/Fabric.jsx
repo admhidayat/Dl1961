@@ -17,7 +17,7 @@ export default class Fabric extends Component {
 
     return (
       <>
-        <p style={{ position: "absolute", margin: "15px" }}>Fabric</p>
+        <p style={{ position: "absolute", margin: "15px" }}>Select Fabric</p>
         <Row
           type="flex"
           justify="center"

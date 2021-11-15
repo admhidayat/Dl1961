@@ -23,7 +23,8 @@ export default class AdditionalNotes extends Component {
           style={{ minHeight: "100vh", width: "100vw" }}
         >
           <TextArea
-            style={{ width: "50%", height: "100%", borderRadius:"20px" }}
+            
+            style={{ width: "50%", height: "100%", borderRadius:"20px", backgroundColor:"inherit" }}
             placeholder="Additional Notes"
             bordered
             rows="10"

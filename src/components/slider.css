@@ -7,7 +7,7 @@
   width: 90%;
   height: 35px;
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgb(230, 235, 243) 3%, rgba(42,125,182,0.16290266106442575) 6%, rgba(26,65,130,1) 93%, rgba(9,51,121,1) 100%);
+  background: linear-gradient(90deg, rgb(230, 235, 243) 12%, rgba(42,125,182,0.16290266106442575) 3%, rgba(26,65,130,1) 93%, rgba(9,51,121,1) 100%);
   outline: none;
   opacity: 0.7;
   border-radius: 20px;

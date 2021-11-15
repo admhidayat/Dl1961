@@ -15,187 +15,132 @@ export default class UserForm extends Component {
     return (
       <>
         <p style={{ position: "absolute", margin: "15px" }}>Profile</p>
-        <Row
-          type="flex"
-          justify="center"
-          align="middle"
-          style={{ minHeight: "100vh" }}
+        <div
+          
+          style={{width:"100%", height:"100%", display:"flex", justifyContent:"space-evenly", alignItems:"center"}}
         >
-          <Form>
-            <Row justify="space-around">
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter First Name.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <Input
-                    className="input"
-                    size="large"
-                    placeholder="First Name"
-                  />
-                </Form.Item>
-              </Col>
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter First Name.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <Input className="input" placeholder="First Name" />
-                </Form.Item>
-              </Col>
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter First Name.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <Input
-                    className="input"
-                    size="large"
-                    placeholder="Last Name"
-                  />
-                </Form.Item>
-              </Col>
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter Last name.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <Input
-                    className="input"
-                    size="large"
-                    placeholder="First Name"
-                  />
-                </Form.Item>
-              </Col>
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter First Name.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <Input
-                    className="input"
-                    size="large"
-                    placeholder="E-mail Address"
-                  />
-                </Form.Item>
-              </Col>
-              <Col xs={24} sm={24} md={10} lg={10}>
-                <Form.Item
-                  name="fname"
-                  labelCol={{ span: 24 }}
-                  wrapperCol={{ span: 24 }}
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please enter E-mail Address.",
-                    },
-                    {
-                      pattern: new RegExp(/^[a-zA-Z ]*$/),
-                      message: "Numbers not allowed",
-                    },
-                  ]}
-                >
-                  <TextArea className="input" placeholder="First Name" />
-                </Form.Item>
-              </Col>
-            </Row>
-          </Form>
-          {/* <div
-          type="flex"
-          justify="center"
-          align="middle"
-          style={{ minHeight: "100vh" , width:"100%"}}
-        >
-          <Row gutter={[32, 48]}>
-            <Col span={11}>
-              <Input
-                size="large"
-                placeholder="First Name"
-                prefix={<UserOutlined />}
-              />
-            </Col>
-            <Col span={11}>
-              <TextArea
-                placeholder="Favourite Brands"
-                allowClear
-                onChange={onChange}
-              />
-            </Col>
-            <Col span={11}>
-              <Input
-                size="large"
-                placeholder="Last Name"
-                prefix={<UserOutlined />}
-              />
-            </Col>
-            <Col span={11}>
-              <TextArea placeholder="Notes" allowClear onChange={onChange} />
-            </Col>
-            <Col span={11}>
-              <Input
-                size="large"
-                placeholder="E-mail Address"
-                prefix={<UserOutlined />}
-              />
-            </Col>
-          </Row>
-        </div> */}
-        </Row>
+         
+            <div style={{display:"flex",  width:"90%"}}>
+              <div style={{width:"100%", margin:"10px"}}>
+                <Col xs={24} sm={24} md={24} lg={24}>
+                  <Form.Item
+                    name="fname"
+                    
+              
+                    rules={[
+                      {
+                        required: true,
+                        message: "Please enter First Name.",
+                      },
+                      {
+                        pattern: new RegExp(/^[a-zA-Z ]*$/),
+                        message: "Numbers not allowed",
+                      },
+                    ]}
+                  >
+                    <Input
+                      style={{ height: "80px", borderRadius: "20px" }}
+                      size="large"
+                      placeholder="First Name"
+                    />
+                  </Form.Item>
+                </Col>
+                <Col xs={24} sm={24} md={24} lg={24}>
+                  <Form.Item
+                    name="fname"
+                    labelCol={{ span: 24 }}
+                    wrapperCol={{ span: 24 }}
+                    rules={[
+                      {
+                        required: true,
+                        message: "Please enter First Name.",
+                      },
+                      {
+                        pattern: new RegExp(/^[a-zA-Z ]*$/),
+                        message: "Numbers not allowed",
+                      },
+                    ]}
+                  >
+                    <Input
+                      style={{ height: "80px", borderRadius: "20px" }}
+                      size="large"
+                      placeholder="Last Name"
+                    />
+                  </Form.Item>
+                </Col>
+                <Col xs={24} sm={24} md={24} lg={24}>
+                  <Form.Item
+                    name="fname"
+                    labelCol={{ span: 24 }}
+                    wrapperCol={{ span: 24 }}
+                    rules={[
+                      {
+                        required: true,
+                        message: "Please enter First Name.",
+                      },
+                      {
+                        pattern: new RegExp(/^[a-zA-Z ]*$/),
+                        message: "Numbers not allowed",
+                      },
+                    ]}
+                  >
+                    <Input
+                      style={{ height: "80px", borderRadius: "20px" }}
+                      size="large"
+                      placeholder="E-mail Address"
+                    />
+                  </Form.Item>
+                </Col>
+              </div>
+              <div style={{width:"100%"}}>
+                <Col xs={24} sm={24} md={24} lg={24}>
+                  <Form.Item
+                    name="fname"
+                    labelCol={{ span: 24 }}
+                    wrapperCol={{ span: 24 }}
+                    rules={[
+                      {
+                        required: true,
+                        message: "Please enter First Name.",
+                      },
+                      {
+                        pattern: new RegExp(/^[a-zA-Z ]*$/),
+                        message: "Numbers not allowed",
+                      },
+                    ]}
+                  >
+                    <TextArea
+                      style={{ height: "120px", borderRadius: "20px", marginTop:"11px" }}
+                      placeholder="Favorite Brands"
+                    />
+                  </Form.Item>
+                </Col>
+
+                <Col xs={24} sm={24} md={24} lg={24}>
+                  <Form.Item
+                    name="fname"
+                    labelCol={{ span: 24 }}
+                    wrapperCol={{ span: 24 }}
+                    rules={[
+                      {
+                        required: true,
+                        message: "Please enter E-mail Address.",
+                      },
+                      {
+                        pattern: new RegExp(/^[a-zA-Z ]*$/),
+                        message: "Numbers not allowed",
+                      },
+                    ]}
+                  >
+                    <TextArea
+                      style={{ height: "140px", borderRadius: "20px" }}
+                      placeholder="Notes"
+                    />
+                  </Form.Item>
+                </Col>
+              </div>
+            </div>
+        </div>
       </>
     );
   }

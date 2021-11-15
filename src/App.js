@@ -47,9 +47,9 @@ function App() {
         <div style={Object.assign({}, styles.slide3)}>
           <Title />
         </div>
-        {/* <div style={Object.assign({}, styles.slide3)}>
-          <Banner />
-        </div> */}
+        <div style={Object.assign({}, styles.slide3)}>
+          {/* <Banner /> */}
+        </div>
         <div style={Object.assign({}, styles.slide3)}>
           <UserForm />
         </div>
