@@ -5,7 +5,7 @@ import patti_straight from "../images/patti_straight.jpg";
 import rachel_flare from "../images/rachel_flare.jpg";
 import bridget_boot from "../images/bridget_boot.jpg";
 import hepburn_wideleg from "../images/hepburn_wideleg.jpg";
-
+import "./styles.css"
 export default class FitSelection extends Component {
   render() {
     return (
@@ -32,7 +32,7 @@ export default class FitSelection extends Component {
                 margin: "2px",
               }}
             >
-              <Button style={{ borderRadius: "12px" }}>Mara Straight</Button>
+              <Button className="ant-btn" style={{ borderRadius: "12px" }}>Mara Straight</Button>
 
               <div>
                 <img

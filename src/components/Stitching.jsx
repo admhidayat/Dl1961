@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Row, Col } from "antd";
 import stitch_tonal from "../images/stitch_tonal.png";
 import stitch_contrast from "../images/stitch_contrast.png";
+import "./styles.css";
 
 export default class Stitching extends Component {
   render() {
@@ -30,20 +31,31 @@ export default class Stitching extends Component {
               width: "100%",
             }}
           >
-            <div>
-              <span style={{ color: "white", fontSize: "20px", margin:"100px", position:"absolute" }}>Tonal</span>
+            <div className="btnImage" >
+              <span
+                style={{
+                  fontSize: "20px",
+                  margin: "140px",
+                  position: "absolute",
+                }}
+              >
+                Tonal
+              </span>
 
-              <img
-                style={{ width: "250px", height: "230px" }}
-                src={stitch_tonal}
-              />
+              <img style={{width:"350px", height:"310px"}} src={stitch_tonal} />
             </div>
-            <div>
-            <span style={{ color: "white", fontSize: "20px", margin:"100px", position:"absolute" }}>Contrast</span>
-              <img
-                style={{ width: "250px", height: "230px" }}
-                src={stitch_contrast}
-              />
+            <div className="btnImage" >
+              <span
+                style={{
+                  fontSize: "20px",
+                  margin: "140px",
+                  position: "absolute",
+                }}
+              >
+                Contrast
+              </span>
+
+              <img style={{width:"350px", height:"310px"}}  src={stitch_contrast} />
             </div>
           </Row>
         </Row>

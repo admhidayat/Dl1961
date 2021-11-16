@@ -10,7 +10,7 @@ export default class Title extends Component {
         align="middle"
         style={{ minHeight: "100vh" }}
       >
-        <h1 style={{fontFamily:"Poppins", margin:"10px"}}>
+        <h1 style={{ margin:"10px", color:"gray"}}>
           Making your dream jeans using recycled fibers, energy, and water.
         </h1>
       </Row>

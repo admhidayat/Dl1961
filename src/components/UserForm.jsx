@@ -39,7 +39,7 @@ export default class UserForm extends Component {
                     ]}
                   >
                     <Input
-                      style={{ height: "80px", borderRadius: "20px" }}
+                      style={{ height: "80px", borderRadius: "20px", color:"#515151" }}
                       size="large"
                       placeholder="First Name"
                     />
@@ -62,7 +62,7 @@ export default class UserForm extends Component {
                     ]}
                   >
                     <Input
-                      style={{ height: "80px", borderRadius: "20px" }}
+                      style={{ height: "80px", borderRadius: "20px", color:"#515151" }}
                       size="large"
                       placeholder="Last Name"
                     />
@@ -85,7 +85,7 @@ export default class UserForm extends Component {
                     ]}
                   >
                     <Input
-                      style={{ height: "80px", borderRadius: "20px" }}
+                      style={{ height: "80px", borderRadius: "20px", color:"#515151" }}
                       size="large"
                       placeholder="E-mail Address"
                     />
@@ -110,7 +110,7 @@ export default class UserForm extends Component {
                     ]}
                   >
                     <TextArea
-                      style={{ height: "120px", borderRadius: "20px", marginTop:"11px" }}
+                      style={{ height: "120px", borderRadius: "20px", marginTop:"11px", color:"#515151" }}
                       placeholder="Favorite Brands"
                     />
                   </Form.Item>
@@ -133,7 +133,7 @@ export default class UserForm extends Component {
                     ]}
                   >
                     <TextArea
-                      style={{ height: "140px", borderRadius: "20px" }}
+                      style={{ height: "140px", borderRadius: "20px",color:"green" }}
                       placeholder="Notes"
                     />
                   </Form.Item>

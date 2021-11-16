@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Select } from "antd";
+import "./styles.css";
 const { Option } = Select;
 
 function onChange(value) {
@@ -30,9 +31,11 @@ export default class InseameSelection extends Component {
             alignItems: "center",
             flexDirection: "column",
             height: "90%",
+            borderRadius:"20px"
           }}
         >
           <Select
+            className="inseamBox"
             onFocus={(e) => e.stopPropagation()}
             size="large"
             showSearch

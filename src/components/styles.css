@@ -1,7 +1,23 @@
 .ant-input:placeholder-shown {
-  background-color:inherit;
- 
+  background-color: inherit;
 }
 .ant-table {
   background: inherit !important;
 }
+.inseamBox {
+  border-radius: 70px;
+  background-color: lawngreen;
+}
+
+.ant-select-selection-selected-value {
+  border-radius: 121px;
+}
+
+
+
+.btnImage:hover {
+  cursor: pointer;
+  background-color: #b3b3b3;
+  color: white;
+}
+

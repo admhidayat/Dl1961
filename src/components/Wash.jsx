@@ -14,11 +14,36 @@ export default class Wash extends Component {
     return (
       <>
         <p style={{ position: "absolute", margin: "15px" }}> Select Wash</p>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
 
+            color: "gray",
+            position: "absolute",
+            height: "100%",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ width: "16.8vw", textAlign: "center" }}>White</div>
+          <div style={{ width: "16.8vw", textAlign: "center" }}>
+            Light Indigo
+          </div>
+          <div style={{ width: "16.8vw", textAlign: "center" }}>Mid Indigo</div>
+          <div style={{ width: "16.8vw", textAlign: "center" }}>
+            Dark Indigo
+          </div>
+          <div style={{ width: "16.8vw", textAlign: "center" }}>
+            Washed Black
+          </div>
+          <div style={{ width: "16.8vw", textAlign: "center" }}>
+            Solid Black
+          </div>
+        </div>
         <div style={{ display: "flex" }}>
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "16.5vw" }} src={wash1} />
+              <img style={{ height: "100vh", width: "16.8vw" }} src={wash1} />
             </Row>
           </div>
 
@@ -30,7 +55,7 @@ export default class Wash extends Component {
 
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "16.5vw" }} src={wash3} />
+              <img style={{ height: "100vh", width: "17vw" }} src={wash3} />
             </Row>
           </div>
 
@@ -40,10 +65,9 @@ export default class Wash extends Component {
             </Row>
           </div>
 
-
           <div>
             <Row type="flex" justify="center" align="middle">
-              <img style={{ height: "100vh", width: "16.5vw" }} src={wash5} />
+              <img style={{ height: "100vh", width: "16.9vw" }} src={wash5} />
             </Row>
           </div>
           <div>
@@ -51,34 +75,6 @@ export default class Wash extends Component {
               <img style={{ height: "100vh", width: "16.5vw" }} src={wash6} />
             </Row>
           </div>
-          {/* <div>
-            <Row type="flex" justify="center" align="middle">
-              <div>
-                <img src={wash2} />
-              </div>
-            </Row>
-          </div>
-          <div>
-            <Row type="flex" justify="center" align="middle">
-              <div>
-                <img src={wash3} />
-              </div>
-            </Row>
-          </div>
-          <div>
-            <Row type="flex" justify="center" align="middle">
-              <div>
-                <img src={wash4} />
-              </div>
-            </Row>
-          </div>
-          <div>
-            <Row type="flex" justify="center" align="middle">
-              <div>
-                <img src={wash5} />
-              </div>
-            </Row>
-          </div> */}
         </div>
       </>
     );
